@@ -7,7 +7,7 @@ const Home = () => {
   const resume=[
    {
       id: 1,
-      href: "./MUHAMMAD_TAHIR_WEB_DEVELOPER_RESUME.pdf",
+      href: "./MUHAMMAD_TAHIR_FRONT_END_DEVELOPER_RESUME.pdf",
 
       
     },
