@@ -24,9 +24,9 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I am Muhammad Tahir
           </h2>
-          <p className="text-3xl text-gray-300 pt-4">FRONT-END DEVELOPER</p>
+          <p className="text-3xl text-gray-300 pt-4">WEB DEVELOPER</p>
           <p className="text-gray-500 py-4 max-w-md ">
-          I am a front-end developer with a strong passion for building web applications. My expertise lies in utilizing cutting-edge technologies such as React, Tailwind CSS and Bootstrap to create web applications interfaces.
+            I am a passionate web developer dedicated to crafting dynamic and user-friendly web applications. With expertise in modern technologies like React, Node.js, Express.js, and MongoDB, I specialize in building scalable and efficient solutions that enhance user experiences
           </p>
 
           <div>
