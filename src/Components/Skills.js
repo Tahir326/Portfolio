@@ -8,6 +8,11 @@ import reactImage from "../assets/react.png";
 // import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import typescript from "../assets/TypeScript.png"
+import node from "../assets/node.png"
+import express from "../assets/Express (2).png"
+import MongoDB from "../assets/MongoDB.png"
+import MySQL from "../assets/MySQL.png"
 
 const Skills = () => {
   const techs = [
@@ -15,49 +20,67 @@ const Skills = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-700",
+      style: "shadow-lg shadow-orange-700",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-700",
+      style: "shadow-lg shadow-blue-700",
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-700",
+      src: tailwind,
+      title: "Tailwind CSS",
+      style: "shadow-lg shadow-sky-700",
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-700",
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-lg shadow-yellow-700",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-700",
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-lg shadow-blue-900",
     },
-    // {
-    //   id: 6,
-    //   src: nextjs,
-    //   title: "Next JS",
-    //   style: "shadow-white",
-    // },
-    // {
-    //   id: 7,
-    //   src: graphql,
-    //   title: "GraphQL",
-    //   style: "shadow-pink-400",
-    // },
+    {
+      id: 6,
+      src: reactImage,
+      title: "React.js",
+      style: "shadow-lg shadow-blue-700",
+    },
+    {
+      id: 7,
+      src: node,
+      title: "Node.js",
+      style: "shadow-lg shadow-green-600",
+    },
     {
       id: 8,
+      src: express,
+      title: "Express.js",
+      style: "shadow-lg shadow-gray-500",
+    },
+    {
+      id: 9,
+      src: MongoDB,
+      title: "MongoDB",
+      style: "shadow-lg shadow-green-700",
+    },
+    {
+      id: 10,
+      src: MySQL,
+      title: "MySQL",
+      style: "shadow-lg shadow-blue-900",
+    },
+    {
+      id: 11,
       src: github,
       title: "Git & GitHub",
-      style: "shadow-orange-800",
+      style: "shadow-lg shadow-orange-900",
     },
   ];
 
