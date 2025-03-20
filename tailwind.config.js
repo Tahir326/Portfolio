@@ -4,10 +4,23 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
-    fontFamily:{
-      signature:['Great Vibes']}
+    extend: {
+      keyframes: {
+        wave: {
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "25%": { transform: "rotate(10deg)" },
+          "50%": { transform: "rotate(-10deg)" },
+          "75%": { transform: "rotate(10deg)" },
+        },
+      },
       
+      animation: {
+        "waving-hand": "wave 0.7s ease-in-out infinite",
+      },
+      fontFamily:{
+        signature:['Great Vibes']
+      },
+    },
   },
   plugins: [],
 }
