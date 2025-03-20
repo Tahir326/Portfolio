@@ -7,7 +7,7 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import typescript from "../assets/TypeScript.png";
+// import typescript from "../assets/TypeScript.png";
 import node from "../assets/node.png";
 import express from "../assets/Express (2).png";
 import MongoDB from "../assets/MongoDB.png";
