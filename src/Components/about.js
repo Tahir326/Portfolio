@@ -34,7 +34,7 @@ const About = () => {
           viewport={{ once: true }}
           className="text-base md:text-xl md:mt-12 mt-12 text-gray-700 text-center poppins-regular"
         >
-          Skilled and detail-oriented full-stack web developer with a strong
+          Skilled and detail-oriented web developer with a strong
           background in programming and a passion for building innovative
           software solutions. Proficient in JavaScript with experience in
           developing dynamic, scalable, and user-friendly web applications.

@@ -5,26 +5,30 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
+import nextjs from "../assets/nextjs.svg";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import MUI from "..//assets/material-ui.svg";
 // import typescript from "../assets/TypeScript.png";
 import node from "../assets/node.png";
 import express from "../assets/Express (2).png";
 import MongoDB from "../assets/MongoDB.png";
-import MySQL from "../assets/MySQL.png";
+// import MySQL from "../assets/MySQL.png";
 
 const Skills = () => {
   const techs = [
     { id: 1, src: html, title: "HTML", style: "shadow-lg shadow-orange-700" },
     { id: 2, src: css, title: "CSS", style: "shadow-lg shadow-blue-700" },
     { id: 3, src: tailwind, title: "Tailwind CSS", style: "shadow-lg shadow-sky-700" },
+    { id: 12, src: MUI, title: "Material UI", style: "shadow-lg shadow-sky-700" },
     { id: 4, src: javascript, title: "JavaScript", style: "shadow-lg shadow-yellow-700" },
     // { id: 5, src: typescript, title: "TypeScript", style: "shadow-lg shadow-blue-900" },
-    { id: 6, src: reactImage, title: "React.js", style: "shadow-lg shadow-blue-700" },
-    { id: 7, src: node, title: "Node.js", style: "shadow-lg shadow-green-600" },
-    { id: 8, src: express, title: "Express.js", style: "shadow-lg shadow-gray-500" },
-    { id: 9, src: MongoDB, title: "MongoDB", style: "shadow-lg shadow-green-700" },
-    { id: 10, src: MySQL, title: "MySQL", style: "shadow-lg shadow-blue-900" },
+    { id: 6, src: reactImage, title: "React", style: "shadow-lg shadow-blue-700" },
+    { id: 7, src: nextjs, title: "Next.js", style: "shadow-lg shadow-blue-700" },
+    { id: 8, src: node, title: "Node.js", style: "shadow-lg shadow-green-600" },
+    { id: 9, src: express, title: "Express.js", style: "shadow-lg shadow-gray-500" },
+    { id: 10, src: MongoDB, title: "MongoDB", style: "shadow-lg shadow-green-700" },
+    // { id: 10, src: MySQL, title: "MySQL", style: "shadow-lg shadow-blue-900" },
     { id: 11, src: github, title: "Git & GitHub", style: "shadow-lg shadow-orange-900" },
   ];
 
