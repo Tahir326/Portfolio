@@ -1,51 +1,59 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import p1 from '../assets/portfolio/P1.png';
-import p2 from '../assets/portfolio/P2.png';
-import p3 from '../assets/portfolio/P3.png';
-import p4 from '../assets/portfolio/P4.png';
+import p1 from "../assets/portfolio/P1.png";
+import p2 from "../assets/portfolio/P2.png";
+import p3 from "../assets/portfolio/P3.png";
+import p4 from "../assets/portfolio/P4.png";
+import p5 from "../assets/portfolio/P5.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
       src: p4,
-      heading: 'AI APPAREL',
-      para: 'AI Apparel is an AI-powered custom t-shirt design e-commerce platform...',
-      livelink: 'https://ai-apparel-lovat.vercel.app/',
-      code: ''
+      heading: "AI APPAREL",
+      para: "AI Apparel is an AI-powered custom t-shirt design E-commerce platform.",
+      livelink: "https://ai-apparel-lovat.vercel.app/",
+      code: "",
     },
     {
       id: 2,
-      src: p2,
-      heading: 'CLONEGPT (CHATGPT CLONE)',
-      para: 'This application is a clone of ChatGPT, developed using React and Tailwind CSS...',
-      livelink: 'https://muhammadtahirclonegpt.netlify.app/',
-      code: 'https://github.com/Tahir326/CLONE_GPT'
+      src: p5,
+      heading: "STOCKROOM PITCH SITE",
+      para: "A modern, responsive Stockroom-pitch website built with Next.js and Tailwind CSS.",
+      livelink: "https://m-tahir-stockroom-project.vercel.app/",
+      code: "https://github.com/Tahir326/Stockroom-Project",
     },
     {
       id: 3,
-      src: p3,
-      heading: 'Static Job Listing Website',
-      para: 'This website, built using React.js and Bootstrap, presents a list of programming jobs...',
-      livelink: 'https://tahir326.github.io/Job_Listing-App/',
-      code: 'https://github.com/Tahir326/Job_Listing-App'
+      src: p2,
+      heading: "CLONEGPT (CHATGPT CLONE)",
+      para: "A ChatGPT clone, featuring real-time AI responses. Powered by the OpenAI API for seamless conversations.",
+      livelink: "https://muhammadtahirclonegpt.netlify.app/",
+      code: "https://github.com/Tahir326/CLONE_GPT",
     },
     {
       id: 4,
+      src: p3,
+      heading: "Job Listing Site",
+      para: "This website showcases a list of programming jobs and offers a simple, responsive interface.",
+      livelink: "https://tahir326.github.io/Job_Listing-App/",
+      code: "https://github.com/Tahir326/Job_Listing-App",
+    },
+    {
+      id: 5,
       src: p1,
-      heading: 'SHOE_STORE LANDING PAGE',
-      para: 'A responsive Shoe Store landing page built using HTML, CSS (Tailwind), and JavaScript.',
-      livelink: 'https://tahir326.github.io/SHOE_STORE-/',
-      code: 'https://github.com/Tahir326/SHOE_STORE-'
+      heading: "SHOE STORE LANDING PAGE",
+      para: "A responsive Shoe Store landing page built using HTML, CSS (Tailwind CSS), and JavaScript.",
+      livelink: "https://tahir326.github.io/SHOE_STORE-/",
+      code: "https://github.com/Tahir326/SHOE_STORE-",
     },
   ];
 
   return (
     <div name="projects" className="p-4 bg-white text-white">
       <div className="max-w-screen-2xl p-4 mx-auto flex flex-col justify-center md:w-[83%] w-full">
-        
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -79,21 +87,31 @@ const Projects = () => {
               transition={{ duration: 0.7, ease: "easeOut" }}
             >
               <motion.div
-                className="w-full h-40 flex items-center justify-center overflow-hidden rounded-xl  "
+                className={`w-full h-40 flex items-center justify-center overflow-hidden rounded-xl shadow-md shadow-gray-200`}
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
               >
-                <img src={src} alt={heading} className="w-full h-full object-fill " />
+                <img
+                  src={src}
+                  alt={heading}
+                  className="w-full h-full object-fill"
+                />
               </motion.div>
 
-              <h4 className="mt-5 text-2xl poppins-bold text-[#181E4B]">{heading}</h4>
+              <h4 className="mt-5 text-xl poppins-bold text-[#181E4B]">
+                {heading}
+              </h4>
               <div className="mt-2 text-sm text-gray-700 h-20 overflow-y-auto scrollbar-hide">
                 <p>{para}</p>
               </div>
 
               <div className="flex-grow"></div>
 
-              <div className={`mt-4 flex ${code ? "justify-between" : "justify-center"}`}>
+              <div
+                className={`mt-4 flex ${
+                  code ? "justify-between" : "justify-center"
+                }`}
+              >
                 <motion.a
                   href={livelink}
                   target="_blank"
