@@ -36,14 +36,10 @@ const Home = () => {
             I am Muhammad Tahir
           </h2>
           <p className="text-[1.4rem] sm:text-3xl text-gray-600 pt-4 ml-4 sm:ml-6 poppins-semibold">
-            WEB DEVELOPER
+            SOFTWARE DEVELOPER
           </p>
           <p className="text-gray-500 py-4 max-w-md ml-4 sm:ml-6 poppins-regular">
-            I am a passionate web developer dedicated to crafting dynamic and
-            user-friendly web applications. With expertise in modern
-            technologies like React, Node.js, Express.js, and MongoDB, I
-            specialize in building scalable and efficient solutions that enhance
-            user experiences.
+          I am a passionate software developer dedicated to craft dynamic and user friendly applications. I specialize in building scalable and efficient solutions that enhance user experiences.
           </p>
 
           <div className="ml-4 sm:ml-6">

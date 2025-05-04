@@ -6,6 +6,8 @@ import p2 from "../assets/portfolio/P2.png";
 import p3 from "../assets/portfolio/P3.png";
 import p4 from "../assets/portfolio/P4.png";
 import p5 from "../assets/portfolio/P5.png";
+import p6 from "../assets/portfolio/P6-2.png";
+import p7 from "../assets/portfolio/P7-1.png";
 
 const Projects = () => {
   const projects = [
@@ -16,6 +18,14 @@ const Projects = () => {
       para: "AI Apparel is an AI-powered custom t-shirt design E-commerce platform.",
       livelink: "https://ai-apparel-lovat.vercel.app/",
       code: "",
+    },
+    {
+      id: 6,
+      src: p6,
+      heading: "Mobile Chat App",
+      para: "Mobile chat app built with React Native CLI and Socket.IO for real-time communication.",
+      livelink: "",
+      code: "https://github.com/Tahir326/Mobile_Chat_App",
     },
     {
       id: 2,
@@ -42,6 +52,14 @@ const Projects = () => {
       code: "https://github.com/Tahir326/Job_Listing-App",
     },
     {
+      id: 7,
+      src: p7,
+      heading: "Facebook App Clone",
+      para: "Facebook app clone made with React Native CLI.",
+      livelink: "",
+      code: "https://github.com/Tahir326/Facebook-app-Clone",
+    },
+    {
       id: 5,
       src: p1,
       heading: "SHOE STORE LANDING PAGE",
@@ -49,6 +67,7 @@ const Projects = () => {
       livelink: "https://tahir326.github.io/SHOE_STORE-/",
       code: "https://github.com/Tahir326/SHOE_STORE-",
     },
+
   ];
 
   return (
@@ -94,7 +113,7 @@ const Projects = () => {
                 <img
                   src={src}
                   alt={heading}
-                  className="w-full h-full object-fill"
+                  className={`w-full h-full ${id === 6 || id === 7 ? "object-contain" : "object-fill"}`}
                 />
               </motion.div>
 
@@ -109,9 +128,11 @@ const Projects = () => {
 
               <div
                 className={`mt-4 flex ${
-                  code ? "justify-between" : "justify-center"
-                }`}
+                  code ? "" : "justify-center"
+                  
+                } ${livelink  ? "" : "justify-center"}`}
               >
+                  {livelink && (
                 <motion.a
                   href={livelink}
                   target="_blank"
@@ -123,6 +144,7 @@ const Projects = () => {
                 >
                   Visit Site
                 </motion.a>
+                    )}
                 {code && (
                   <motion.a
                     href={code}
