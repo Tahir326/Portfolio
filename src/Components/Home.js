@@ -4,7 +4,7 @@ import main_bg from "../assets/main_bg2.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Home = () => {
-  const resume = [{ id: 1, href: "./MUHAMMAD_TAHIR_WEB_DEVELOPER_RESUME.pdf" }];
+  const resume = [{ id: 1, href: "./Muhammad_Tahir_Web_Developer_Resume.pdf" }];
 
   return (
     <div
@@ -36,10 +36,10 @@ const Home = () => {
             I am Muhammad Tahir
           </h2>
           <p className="text-[1.4rem] sm:text-3xl text-gray-600 pt-4 ml-4 sm:ml-6 poppins-semibold">
-            SOFTWARE DEVELOPER
+            WEB DEVELOPER
           </p>
           <p className="text-gray-500 py-4 max-w-md ml-4 sm:ml-6 poppins-regular">
-          I am a passionate software developer dedicated to craft dynamic and user friendly applications. I specialize in building scalable and efficient solutions that enhance user experiences.
+          I am a passionate web developer dedicated to craft dynamic and user friendly applications. I specialize in building scalable and efficient solutions that enhance user experiences.
           </p>
 
           <div className="ml-4 sm:ml-6">
