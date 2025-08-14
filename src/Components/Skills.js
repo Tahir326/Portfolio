@@ -25,7 +25,7 @@ const Skills = () => {
     // { id: 5, src: typescript, title: "TypeScript", style: "shadow-lg shadow-blue-900" },
     { id: 6, src: reactImage, title: "React"},
     { id: 7, src: nextjs, title: "Next.js"},
-    { id: 6, src: reactImage, title: "React Native"},
+    // { id: 6, src: reactImage, title: "React Native"},
     { id: 8, src: node, title: "Node.js"},
     { id: 9, src: express, title: "Express.js"},
     { id: 10, src: MongoDB, title: "MongoDB"},
