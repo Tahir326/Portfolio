@@ -42,25 +42,25 @@ const Home = () => {
           I am a passionate web developer dedicated to craft dynamic and user friendly applications. I specialize in building scalable and efficient solutions that enhance user experiences.
           </p>
 
-          // <div className="ml-4 sm:ml-6">
-          //   {resume.map(({ id, href }) => (
-          //     <motion.a
-          //       key={id}
-          //       href={href}
-          //       target="_blank"
-          //       rel="noreferrer"
-          //       whileHover={{ scale: 1.1 }}
+          <div className="ml-4 sm:ml-6 hidden">
+            {resume.map(({ id, href }) => (
+              <motion.a
+                key={id}
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                whileHover={{ scale: 1.1 }}
           
-          //       transition={{ duration: 0.5, ease: "easeOut" }}
-          //       className="group poppins-medium text-base text-[#181E4B] w-fit px-2 py-2 my-2 flex items-center bg-gradient-to-r from-[#4AEFDF] to-[#22D3EE]  rounded-full cursor-pointer md:hover:shadow-lg md:hover:shadow-[#028774] "
-          //     >
-          //       View My Resume
-          //       <span className="group-hover:rotate-180 duration-500">
-          //         <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-          //       </span>
-          //     </motion.a>
-          //   ))}
-          // </div>
+                transition={{ duration: 0.5, ease: "easeOut" }}
+                className="group poppins-medium text-base text-[#181E4B] w-fit px-2 py-2 my-2 flex items-center bg-gradient-to-r from-[#4AEFDF] to-[#22D3EE]  rounded-full cursor-pointer md:hover:shadow-lg md:hover:shadow-[#028774] "
+              >
+                View My Resume
+                <span className="group-hover:rotate-180 duration-500">
+                  <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                </span>
+              </motion.a>
+            ))}
+          </div>
         </motion.div>
 
         {/* Right Section - Animated Image */}
