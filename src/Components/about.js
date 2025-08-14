@@ -34,12 +34,12 @@ const About = () => {
           viewport={{ once: true }}
           className="text-base md:text-xl md:mt-12 mt-12 text-gray-700 text-center poppins-regular"
         >
-          Skilled and detail-oriented software developer with a strong
+          Skilled and detail oriented web developer with a strong
           background in programming and a passion for building innovative
           software solutions. Proficient in JavaScript with experience in
-          developing dynamic, scalable, and user-friendly applications.
+          developing dynamic, scalable, and user friendly applications.
           Committed to leveraging technical expertise and a passion for
-          innovation to deliver impactful, high-quality software solutions.
+          innovation to deliver impactful, high quality software solutions.
         </motion.p>
       </motion.div>
     </div>
